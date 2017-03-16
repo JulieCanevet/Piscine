@@ -1,0 +1,58 @@
+*
+{
+  font-family: Quicksand;
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  height: 100%;
+  width: 100%;
+}
+
+/* --------------- HEADER --------------- */
+
+/* Création du trait */
+hr
+{
+  border: solid 1px black;
+  width: 100%;
+  margin-top: 1%;
+}
+
+/* Mise en forme du menu */
+
+nav ul
+{
+  text-align: center;
+  width: 100%;
+  margin-left: 0%;
+}
+
+nav li
+{
+  display: inline-block;
+  list-style-type: none;
+  height: 24px;
+  padding-right: 7%;
+  padding-left: 3%;
+  margin-top: 1%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+/* decoration du texte des menus */
+nav a
+{
+  text-decoration: none;
+  color: orange;
+}
+
+/* Disposition du picto transat */
+nav img
+{
+  float: left;
+  margin-left: 3%;
+  margin-top: 0%;
+}
