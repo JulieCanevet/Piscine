@@ -11,6 +11,13 @@ html
   width: 100%;
 }
 
+/* Aide à régler le footer en bas */
+body
+{
+  min-height: 100%;
+  position: relative;
+}
+
 /* --------------- HEADER --------------- */
 
 /* Création du trait */
@@ -46,7 +53,7 @@ nav li
 nav a
 {
   text-decoration: none;
-  color: orange;
+  color: black;
 }
 
 /* Disposition du picto transat */
@@ -55,4 +62,127 @@ nav img
   float: left;
   margin-left: 3%;
   margin-top: 0%;
+}
+/* --------------- FIN DU HEADER --------------- */
+
+/* --------------- PAGE 1 --------------- */
+
+ /* titre de la page 1 "chill & bikini" */
+.page1 h1
+{
+  text-align: left;
+  margin-top: 1%;
+}
+
+/* mise en page du paragraphe d'intro */
+.page1 p
+{
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/*images + textes */
+.sauvage, .jacuzzi, .interieur, .horsol
+{
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+/*textes description des applications */
+.page1 p
+{
+    text-align: center;
+    margin-right: 2em;
+    padding-top: 1.5em;
+}
+
+/* images des applications*/
+.page1 img
+{
+  float: left;
+  padding-right: 2em;
+  margin-left: 2em;
+}
+
+.page1 img:hover
+{
+  height: 35%;
+  width: 35%;
+}
+/* ---------------- FIN DE LA PAGE 1 --------- */
+/* -------------- PAGE 2 ------------------*/
+.page2 h1
+{
+  text-align: left;
+  margin-top: 1%;
+}
+table, td, th
+{
+  border: 1px solid black;
+  padding: 1em;
+  margin: auto;
+  margin-top: 2em;
+}
+
+/* ---------------- FIN DE LA PAGE 2 ------------ */
+/* ---------------- PAGE 3 ------------ */
+
+form
+{
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+/* ---------------- FIN DE LA PAGE 3 ------------ */
+/* ----------------- FOOTER -------------- */
+
+/*Menu footer partie gauche*/
+#menu_footer_left
+{
+  list-style-type: none;
+  float: left;
+  margin-left: 1em;
+  padding-left: 1em;
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+/*Menu footer partie droite*/
+#menu_footer_right
+{
+  list-style-type: none;
+  float: right;
+  margin-right: 1em;
+  padding-right: 1em;
+  text-align: right;
+  padding-top: 0.5em;
+}
+
+/*Espace et couleur du footer*/
+footer
+{
+  background-color: #D4EBDF;
+  height:59px;
+  width: 100%;
+  bottom: 0;
+  margin-top: 3em;
+}
+
+/* style des liens dans le footer */
+footer a
+{
+  text-decoration: none;
+  color: #696969;
+}
+
+/* style des liens survolés */
+footer a:hover
+{
+  text-decoration: underline;
 }
