@@ -130,9 +130,24 @@ table, td, th
 
 form
 {
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
+input, textarea
+{
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  margin-top: 1%;
+}
+
+/* Google map */
+iframe
+{
+  display: block;
+  margin: auto;
+  margin-top: 4%;
+}
 
 
 
