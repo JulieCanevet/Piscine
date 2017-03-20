@@ -16,6 +16,7 @@ body
 {
   min-height: 100%;
   position: relative;
+  overflow-x: hidden;
 }
 
 /* --------------- HEADER --------------- */
@@ -24,8 +25,8 @@ body
 hr
 {
   border: solid 1px black;
-  width: 100%;
   margin-top: 1%;
+  margin-right: 0px;
 }
 
 /* Mise en forme du menu */
@@ -34,7 +35,7 @@ nav ul
 {
   text-align: center;
   width: 100%;
-  margin-left: 0%;
+  margin-left: 2%;
 }
 
 nav li
@@ -69,8 +70,49 @@ nav img
   margin-top: 0%;
 }
 /* --------------- FIN DU HEADER --------------- */
+/* ------------ PAGE 1 / ACCUEIL ---------- */
+/* Reglage photo ligne 1 */
+.haut img
+{
+  width: 20%;
+  height: 20%;
+  margin-right: auto;
+  padding-left: 5%;
+  margin-top: 7%;
+}
 
-/* --------------- PAGE 1 --------------- */
+.haut
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+/* Reglage photos ligne 2 */
+.bas img
+{
+  width: 20%;
+  height: 20%;
+  margin; auto;
+  padding-left: 5%;
+  margin-bottom: 5%;
+}
+
+.bas
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+.page5 img:hover
+{
+  height: 35%;
+  width: 35%;
+}
+
+/* ---- FIN DE LA PAGE 1 / ACCUEIL ---- */
+
+/* --------------- PAGE 2 / PRODUITS --------------- */
 
  /* titre de la page 1 "chill & bikini" */
 .page1 h1
@@ -115,8 +157,8 @@ nav img
   height: 35%;
   width: 35%;
 }
-/* ---------------- FIN DE LA PAGE 1 --------- */
-/* -------------- PAGE 2 ------------------*/
+/* ---------------- FIN DE LA PAGE 2 --------- */
+/* -------------- PAGE 3 / TARIFS ------------------*/
 .page2 h1
 {
   text-align: left;
@@ -135,8 +177,8 @@ th
 {
   background-color: #D4EBDF;
 }
-/* ---------------- FIN DE LA PAGE 2 ------------ */
-/* ---------------- PAGE 3 ------------ */
+/* ---------------- FIN DE LA PAGE 3 ------------ */
+/* ---------------- PAGE 4 / CONTACT ------------ */
 
 form
 {
@@ -159,65 +201,26 @@ iframe
   margin-top: 4%;
 }
 
+/* ---------------- FIN DE LA PAGE 4 ------------ */
+/* ---------------- PAGE 5 / NOS REALISATIONS ------------ */
 
-
-
-
-
-/* ---------------- FIN DE LA PAGE 3 ------------ */
-/* ---------------- PAGE 4 ------------ */
-
+/* Mise en page des images */
 .page4 img
 {
   display: block;
   width: 100%;
   margin-top: 3%;
 }
+/* Mise en forme du trait */
 
-
-
-
-
-/* ---------------- FIN DE LA PAGE 4 ------------ */
-/* ---------------- PAGE 5 ------------ */
+.page4 hr
+{
+  width: 40%;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 2%;
+}
 /* ---------------- FIN DE LA PAGE 5 ------------ */
-/* Reglage photo ligne 1 */
-.haut img
-{
-  width: 20%;
-  height: 20%;
-  margin-right: auto;
-  padding-left: 5%;
-}
-
-.haut
-{
-  text-align: center;
-  margin-top: 4%;
-}
-
-
-/* Reglage photos ligne 2 */
-.bas img
-{
-  width: 20%;
-  height: 20%;
-  margin; auto;
-  padding-left: 5%;
-  padding-bottom: 20%;
-}
-
-.bas
-{
-  text-align: center;
-  margin-top: 4%;
-}
-
-.page5 img:hover
-{
-  height: 35%;
-  width: 35%;
-}
 
 /* ----------------- FOOTER -------------- */
 
