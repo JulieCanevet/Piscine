@@ -104,6 +104,7 @@ nav img
   margin-top: 4%;
 }
 
+/* Reglage photos survolées */
 .page5 img:hover
 {
   height: 35%;
@@ -152,6 +153,7 @@ nav img
   margin-left: 2em;
 }
 
+/* reglage des images survolées */
 .page1 img:hover
 {
   height: 35%;
@@ -164,6 +166,8 @@ nav img
   text-align: left;
   margin-top: 1%;
 }
+
+/* mise en forme des tableaux */
 table, td, th
 {
   border: 1px solid black;
@@ -180,6 +184,7 @@ th
 /* ---------------- FIN DE LA PAGE 3 ------------ */
 /* ---------------- PAGE 4 / CONTACT ------------ */
 
+/* Formulaire de contact */
 form
 {
   margin-top: 4%;
