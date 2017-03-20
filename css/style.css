@@ -78,7 +78,7 @@ nav img
   height: 20%;
   margin-right: auto;
   padding-left: 5%;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .haut
@@ -161,7 +161,7 @@ nav img
 }
 /* ---------------- FIN DE LA PAGE 2 --------- */
 /* -------------- PAGE 3 / TARIFS ------------------*/
-.page2 h1
+.page3 h1
 {
   text-align: left;
   margin-top: 1%;
@@ -180,6 +180,7 @@ table, td, th
 th
 {
   background-color: #D4EBDF;
+  box-shadow: -5px -5px 10px grey;
 }
 /* ---------------- FIN DE LA PAGE 3 ------------ */
 /* ---------------- PAGE 4 / CONTACT ------------ */
@@ -232,30 +233,30 @@ iframe
 /*Menu footer partie gauche*/
 #menu_footer_left
 {
+  display: inline-block;
   list-style-type: none;
   float: left;
-  margin-left: 1em;
-  padding-left: 1em;
+  margin: 1% auto 1% 2%;
   text-align: left;
-  padding-top: 0.5em;
+  width: 30%;
 }
 
 /*Menu footer partie droite*/
 #menu_footer_right
 {
+  display: inline-block;
   list-style-type: none;
   float: right;
-  margin-right: 1em;
-  padding-right: 1em;
+  margin: 1% 2% 1% auto;
+  width: 30%;
   text-align: right;
-  padding-top: 0.5em;
 }
 
 /*Espace et couleur du footer*/
 footer
 {
   background-color: #D4EBDF;
-  height:59px;
+  height: 90px;
   width: 100%;
   bottom: 0;
   margin-top: 3em;
@@ -272,4 +273,18 @@ footer a
 footer a:hover
 {
   text-decoration: underline;
+}
+
+/* Logo Facebook et Twitter */
+#menu_footer_right img
+{
+  width: 7%;
+  height: 7%;
+}
+
+/* Logo instagram et Pinterest */
+#menu_footer_left img
+{
+  width: 7%;
+  height: 7%;
 }
