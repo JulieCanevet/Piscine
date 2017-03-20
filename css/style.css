@@ -42,7 +42,7 @@ nav li
   display: inline-block;
   list-style-type: none;
   height: 24px;
-  padding-right: 7%;
+  padding-right: 5%;
   padding-left: 3%;
   margin-top: 1%;
   padding-top: 1.5%;
@@ -56,6 +56,11 @@ nav a
   color: black;
 }
 
+nav a:hover
+{
+  text-decoration: underline;
+  font-weight: bold;
+}
 /* Disposition du picto transat */
 nav img
 {
@@ -123,8 +128,13 @@ table, td, th
   padding: 1em;
   margin: auto;
   margin-top: 2em;
+  border-collapse: collapse;
 }
 
+th
+{
+  background-color: #D4EBDF;
+}
 /* ---------------- FIN DE LA PAGE 2 ------------ */
 /* ---------------- PAGE 3 ------------ */
 
@@ -155,6 +165,60 @@ iframe
 
 
 /* ---------------- FIN DE LA PAGE 3 ------------ */
+/* ---------------- PAGE 4 ------------ */
+
+.page4 img
+{
+  display: block;
+  width: 100%;
+  margin-top: 3%;
+}
+
+
+
+
+
+/* ---------------- FIN DE LA PAGE 4 ------------ */
+/* ---------------- PAGE 5 ------------ */
+/* ---------------- FIN DE LA PAGE 5 ------------ */
+/* Reglage photo ligne 1 */
+.haut img
+{
+  width: 20%;
+  height: 20%;
+  margin-right: auto;
+  padding-left: 5%;
+}
+
+.haut
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+
+/* Reglage photos ligne 2 */
+.bas img
+{
+  width: 20%;
+  height: 20%;
+  margin; auto;
+  padding-left: 5%;
+  padding-bottom: 20%;
+}
+
+.bas
+{
+  text-align: center;
+  margin-top: 4%;
+}
+
+.page5 img:hover
+{
+  height: 35%;
+  width: 35%;
+}
+
 /* ----------------- FOOTER -------------- */
 
 /*Menu footer partie gauche*/
